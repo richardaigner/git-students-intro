@@ -1,13 +1,15 @@
-git init                   // Erstellt ein neues Repository im Ordner
-git status                 // Zeigt den Status (Änderungen) vom Ordner im vergleich zum Repository an
-git add                    // Übernimmt die Änderungen an das Repository aber überträgt sie noch nicht
-git commit                 // Überträgt die Änderungen an das Repository
-   git commit -m "[TEXT]"  // Bei der Übertragung wird eine Nachricht mitgeschickt
-git log                    // Zeigt alle Änderungen die am Repository gemacht wurden an
-git show [COMMIT_NUMBER]   // Zeigt die Änderungen die bei dem angegebenen commit gemacht wurden an
-git diff [COMMIT_NUMBER]   // Zeigt die Änderungen die zwischen 2 commits gemacht wurden
+git init                         // Erstellt ein neues Repository im Ordner
+git status                       // Zeigt den Status (Änderungen) vom Ordner im vergleich zum Repository an
+git add                          // Übernimmt die Änderungen an das Repository aber überträgt sie noch nicht
+git commit                       // Überträgt die Änderungen an das Repository
+   git commit -m "[TEXT]"        // Bei der Übertragung wird eine Nachricht mitgeschickt
+git log                          // Zeigt alle Änderungen die am Repository gemacht wurden an
+git show [COMMIT_NUMBER]         // Zeigt die Änderungen die bei dem angegebenen commit gemacht wurden an
+git diff [COMMIT_NUMBER]         // Zeigt die Änderungen die zwischen 2 commits gemacht wurden
+git tag [TAG_TEXT]               // Markiert einen commit mit einem Text. ZB mit einer Versionsnummer "v1". Nach diesem Text kann man dann auch suchen. ZB mit "git show"
+git stash                        // Wenn man vorübergehend Code speichern muss der noch nicht Fertig ist. ZB Wenn man dazwischen etwas anderes Wichtiges ändern muss wegen eines Bugs
+   git stash push -m "[TEXT]"    // Schiebt den Geänderten Code auf den Stash und Speichert in bis man ihn mit "pop" wieder holt
+   git stash pop                 // Ruft den gespeicherten Code wieder auf. Damit man dort weiterarbeiten kann wo man unterbrochen hat
 
 git checkout
 git revert
-git tag
-git stash
