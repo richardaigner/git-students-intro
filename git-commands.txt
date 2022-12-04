@@ -7,3 +7,7 @@ git log                    // Zeigt alle Änderungen die am Repository gemacht w
 git show [COMMIT_NUMBER]   // Zeigt die Änderungen die bei dem angegebenen commit gemacht wurden an
 git diff [COMMIT_NUMBER]   // Zeigt die Änderungen die zwischen 2 commits gemacht wurden
 
+git checkout
+git revert
+git tag
+git stash
