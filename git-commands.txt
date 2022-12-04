@@ -1,0 +1,9 @@
+git init                   // Erstellt ein neues Repository im Ordner
+git status                 // Zeigt den Status (Änderungen) vom Ordner im vergleich zum Repository an
+git add                    // Übernimmt die Änderungen an das Repository aber überträgt sie noch nicht
+git commit                 // Überträgt die Änderungen an das Repository
+   git commit -m "[TEXT]"  // Bei der Übertragung wird eine Nachricht mitgeschickt
+git log                    // Zeigt alle Änderungen die am Repository gemacht wurden an
+git show [COMMIT_NUMBER]   // Zeigt die Änderungen die bei dem angegebenen commit gemacht wurden an
+git diff [COMMIT_NUMBER]   // Zeigt die Änderungen die zwischen 2 commits gemacht wurden
+
